@@ -35,3 +35,7 @@ To run the tests:
     npm run test
 
 This command will automatically launch the ganache-cli instance to run the script locally.
+
+
+Question:
+Let's say you have already implemented a standardized ERC-20 smart contract for some token. Now you want to add the possibility of securely updating the balances between any two users, off-chain using state channel technique. Can you write simple JavaScript/TypeScript/NodeJS code that generates state channel receipts (signed by both users) and one Solidity function that validates that receipt and updates the balances accordingly? Note that these 2 users can update their balances off-chain multiple times before they actually want to settle it on-chain.
